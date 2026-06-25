@@ -1,0 +1,12 @@
+# Migration version files — written by Athreyan (Day 1)
+# 001_create_users.py
+# 002_create_services.py
+# 003_create_slot_inventory.py
+# 004_create_bookings.py
+# 005_create_payments.py
+# 006_create_e_undiyal.py
+# 007_create_conflict_rules.py
+# 008_create_calendar_dates.py
+# 009_create_notices.py
+# 010_create_audit_logs.py
+# 011_seed_services_conflict_rules.py
