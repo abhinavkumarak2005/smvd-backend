@@ -1,40 +1,53 @@
-# Backend — Future FastAPI Integration
+# smvd-backend
 
-> **This folder is INTENTIONALLY EMPTY.**
+FastAPI backend for the **Sri Manakula Vinayagar Devasthanam** temple booking and operations platform.
 
-This directory is reserved for the future **FastAPI** backend that will power the Sri Manakula Vinayagar Devasthanam website.
+## Stack
 
-## What will go here
+- **Runtime:** Python 3.11 + FastAPI
+- **Database:** Supabase PostgreSQL via asyncpg
+- **Auth:** Supabase Auth (OTP + Admin 2FA)
+- **Payments:** Razorpay
+- **Deployment:** Railway
+
+## Quick Start
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/YOUR_USERNAME/smvd-backend.git
+cd smvd-backend
+
+# 2. Create virtual environment
+python3.11 -m venv venv
+source venv/bin/activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Set up environment variables
+cp .env.example .env
+# Edit .env with real values (get from Abhinav)
+
+# 5. Run the server
+uvicorn app.main:app --reload
+```
+
+## Health Check
 
 ```
-backend/
-├── app/
-│   ├── main.py              # FastAPI entry point
-│   ├── models/              # SQLAlchemy / Pydantic models
-│   │   ├── donation.py
-│   │   ├── seva.py
-│   │   ├── event.py
-│   │   ├── user.py
-│   │   └── gallery.py
-│   ├── routes/              # API route handlers
-│   │   ├── donations.py     # POST /api/donations
-│   │   ├── sevas.py         # GET /api/sevas, POST /api/sevas/book
-│   │   ├── poojas.py        # GET /api/poojas, POST /api/poojas/book
-│   │   ├── events.py        # GET /api/events
-│   │   ├── gallery.py       # GET /api/gallery
-│   │   ├── blog.py          # GET /api/blog, GET /api/blog/:slug
-│   │   ├── contact.py       # POST /api/contact
-│   │   ├── newsletter.py    # POST /api/newsletter
-│   │   └── auth.py          # POST /api/auth/login, /register
-│   ├── services/            # Business logic layer
-│   ├── database.py          # DB connection (SQLite → PostgreSQL)
-│   └── config.py            # Environment config
-├── requirements.txt
-└── README.md
+GET http://localhost:8000/api/v1/health
 ```
 
-## Frontend Integration Points
+## Team
 
-See `src/api/config.js` in the frontend for all the endpoint placeholders that are ready to be connected.
+| Developer | Role | Days |
+|-----------|------|------|
+| Abhinav | Tech Lead / Core Backend | Day 1–14 |
+| Athreyan | Backend Developer | Day 1–14 |
 
-## DO NOT create any files here until the backend is being implemented.
+## Reference Docs
+
+- `abhinav_backend_tasks.md` — Abhinav's task list
+- `athreyan_backend_tasks.md` — Athreyan's task list
+- `backend_master_plan.md` — Full architecture and plan
+- `backend_architecture.md` — Detailed technical architecture
