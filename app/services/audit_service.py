@@ -1,2 +1,6 @@
-# Immutable audit log writes — always called as BackgroundTask, never awaited
-# TODO: Implement in Task 6.3 (Abhinav - Day 6)
+import logging
+
+logger = logging.getLogger(__name__)
+
+async def write_log(action: str, **kwargs) -> None:
+    logger.info("AUDIT STUB: %s | %s", action, kwargs)

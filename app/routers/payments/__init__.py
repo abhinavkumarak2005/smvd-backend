@@ -1,1 +1,1 @@
-# routers/payments package
+# Payments routers

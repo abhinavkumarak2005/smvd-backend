@@ -1,0 +1,180 @@
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+
+FAIL: 'coroutine' object does not support the asynchronous context manager protocol Type: <class 'TypeError'>
+Traceback (most recent call last):
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/tests/integration/test_capacity_concurrency.py", line 119, in make_request
+    res = await booking_engine.create_booking(mock_conn, uuid4(), req)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavkumarilango/Downloads/Projects/smvd-backend/app/services/booking_engine.py", line 54, in create_booking
+    async with conn.transaction():
+TypeError: 'coroutine' object does not support the asynchronous context manager protocol
+

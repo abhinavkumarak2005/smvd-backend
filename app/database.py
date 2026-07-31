@@ -20,6 +20,7 @@ async def init_db() -> None:
             min_size=5,
             max_size=20,
             command_timeout=60,
+            statement_cache_size=0,
         )
         # Quick health check on startup
         async with _pool.acquire() as conn:
@@ -59,3 +60,7 @@ async def check_db_health() -> bool:
         return True
     except Exception:
         return False
+
+def get_db_pool() -> asyncpg.Pool | None:
+    """Returns the raw asyncpg connection pool for background jobs."""
+    return _pool
